@@ -1,0 +1,36 @@
+﻿<Window x:Class="FourInRowClient.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FourInRowClient"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="318.909" Width="362.512">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="170"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="7"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="59"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="11"/>
+
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="User name :"  Name="lbusername" Grid.Row="0" Grid.Column="1" Margin="0,0,0,4" Grid.RowSpan="2"></Label>
+        <TextBox Name="tbUsername" Grid.Row="0" Grid.Column="3" Margin="2,2,2,0"></TextBox>
+        <Label Content="Password :"  Name="lbpassword" Grid.Row="2" Grid.Column="1" Margin="0,4,0,0"/>
+        <TextBox Name="tbPassword" Grid.Row="2" Grid.Column="3" Margin="2,6,2,0"/>
+        <Button Name="btConnect" Content="Connect" Click="Connect_Click" Grid.Row="4" Grid.Column="3" Margin="4"/>
+        <Label Content="You can register now: " Grid.Row="5" Grid.ColumnSpan="4" FontSize="20"/>
+        <Button Name="btRegister" Content="Register" Click="Register_Click" Grid.Row="7" Grid.Column="3" Margin="6"/>
+    </Grid>
+</Window>

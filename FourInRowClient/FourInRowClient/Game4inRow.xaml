@@ -1,0 +1,74 @@
+﻿<Window x:Class="FourInRowClient.Game4inRow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FourInRowClient"
+        mc:Ignorable="d"
+     Title="Game4inrow" Height="459" Width="522.5" ResizeMode="NoResize" Closed="Window_Closed" >
+    <Grid  >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas  Name="myCanvas" Grid.ColumnSpan="7" Grid.RowSpan="7" MouseDown="myCanvas_MouseDown"  Background="Blue" Margin="0,0,10,0"  >
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="0" Canvas.Top="0" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="70" Canvas.Top="0" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="140" Canvas.Top="0" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="210" Canvas.Top="0" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="280" Canvas.Top="0" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="350" Canvas.Top="0" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="420" Canvas.Top="0" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="0" Canvas.Top="70" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="70" Canvas.Top="70" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="140" Canvas.Top="70" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="210" Canvas.Top="70" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="280" Canvas.Top="70" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="350" Canvas.Top="70" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="420" Canvas.Top="70" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="0" Canvas.Top="140" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="70" Canvas.Top="140" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="140" Canvas.Top="140" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="210" Canvas.Top="140" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="280" Canvas.Top="140" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="350" Canvas.Top="140" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="420" Canvas.Top="140" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="0" Canvas.Top="210" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="70" Canvas.Top="210" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="140" Canvas.Top="210" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="210" Canvas.Top="210" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="280" Canvas.Top="210" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="350" Canvas.Top="210" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="420" Canvas.Top="210" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="0" Canvas.Top="280" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="70" Canvas.Top="280" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="140" Canvas.Top="280" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="210" Canvas.Top="280" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="280" Canvas.Top="280" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="350" Canvas.Top="280" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="420" Canvas.Top="280" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="0" Canvas.Top="350" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="70" Canvas.Top="350" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="140" Canvas.Top="350" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="210" Canvas.Top="350" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="280" Canvas.Top="350" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="350" Canvas.Top="350" />
+            <Ellipse  Fill="White"  Height="69"   Width="69" Canvas.Left="420" Canvas.Top="350" />
+        </Canvas>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\bin\Debug\four_in_rowDB.exe.config
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\bin\Debug\four_in_rowDB.exe
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\bin\Debug\four_in_rowDB.pdb
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\bin\Debug\EntityFramework.dll
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\bin\Debug\EntityFramework.xml
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\obj\Debug\four_in_rowDB.csprojResolveAssemblyReference.cache
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\obj\Debug\four_in_rowDB.csproj.CoreCompileInputs.cache
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\obj\Debug\four_in_rowDB.exe
+c:\users\amani\source\repos\four_in_rowDB\four_in_rowDB\obj\Debug\four_in_rowDB.pdb
+C:\Users\amani\source\repos\four_in_rowDB\four_in_rowDB\obj\Debug\four_in_rowDB.csproj.CopyComplete

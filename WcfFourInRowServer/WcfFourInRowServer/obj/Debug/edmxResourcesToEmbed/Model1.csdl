@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="four_in_rowDB_amaniIbrahimModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Game">
+    <Key>
+      <PropertyRef Name="GameId" />
+    </Key>
+    <Property Name="GameId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WinnerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="WinnerPoints" Type="Int32" Nullable="false" />
+    <Property Name="TimeOfBeginning" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeOfEnd" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Players" Relationship="Self.PlayerGames" FromRole="Games" ToRole="Players" />
+  </EntityType>
+  <EntityType Name="Player">
+    <Key>
+      <PropertyRef Name="PlayerId" />
+    </Key>
+    <Property Name="PlayerId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Points" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Games" Relationship="Self.PlayerGames" FromRole="Players" ToRole="Games" />
+  </EntityType>
+  <Association Name="PlayerGames">
+    <End Role="Games" Type="Self.Game" Multiplicity="*" />
+    <End Role="Players" Type="Self.Player" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="four_in_rowDB_amaniIbrahimEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Games" EntityType="Self.Game" />
+    <EntitySet Name="Players" EntityType="Self.Player" />
+    <AssociationSet Name="PlayerGames" Association="Self.PlayerGames">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Players" EntitySet="Players" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\bin\Debug\WcfFourInRowServer.dll.config
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\bin\Debug\WcfFourInRowServer.dll
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\bin\Debug\WcfFourInRowServer.pdb
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\bin\Debug\EntityFramework.dll
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\bin\Debug\EntityFramework.xml
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\obj\Debug\WcfFourInRowServer.csprojResolveAssemblyReference.cache
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\obj\Debug\WcfFourInRowServer.csproj.CoreCompileInputs.cache
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\obj\Debug\WcfFourInRowServer.csproj.CopyComplete
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\obj\Debug\WcfFourInRowServer.dll
+C:\Users\amani\source\repos\WcfFourInRowServer\WcfFourInRowServer\obj\Debug\WcfFourInRowServer.pdb

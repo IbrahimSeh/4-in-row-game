@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="four_in_rowDB_amaniIbrahimModelStoreContainer" CdmEntityContainer="four_in_rowDB_amaniIbrahimEntities">
+    <EntitySetMapping Name="Games">
+      <EntityTypeMapping TypeName="four_in_rowDB_amaniIbrahimModel.Game">
+        <MappingFragment StoreEntitySet="Games">
+          <ScalarProperty Name="GameId" ColumnName="GameId" />
+          <ScalarProperty Name="WinnerName" ColumnName="WinnerName" />
+          <ScalarProperty Name="WinnerPoints" ColumnName="WinnerPoints" />
+          <ScalarProperty Name="TimeOfBeginning" ColumnName="TimeOfBeginning" />
+          <ScalarProperty Name="TimeOfEnd" ColumnName="TimeOfEnd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="four_in_rowDB_amaniIbrahimModel.Player">
+        <MappingFragment StoreEntitySet="Players">
+          <ScalarProperty Name="PlayerId" ColumnName="PlayerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Points" ColumnName="Points" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="PlayerGames" TypeName="four_in_rowDB_amaniIbrahimModel.PlayerGames" StoreEntitySet="PlayerGames">
+      <EndProperty Name="Games">
+        <ScalarProperty Name="GameId" ColumnName="Game_GameId" />
+      </EndProperty>
+      <EndProperty Name="Players">
+        <ScalarProperty Name="PlayerId" ColumnName="Player_PlayerId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
